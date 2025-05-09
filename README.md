@@ -9,6 +9,11 @@ If you don't have **Mason CLI**, install it globally:
 dart pub global activate mason_cli
 ```
 
+or as a dev dependency in your project:  
+```bash
+dart pub add --dev mason
+```
+
 Initialize Mason in your project:  
 ```bash
 mason init
