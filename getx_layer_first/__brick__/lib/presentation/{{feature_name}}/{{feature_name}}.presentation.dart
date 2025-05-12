@@ -4,7 +4,8 @@ import 'package:{{package_name}}/controllers/{{feature_name}}/{{feature_name}}.d
 
 
 class {{feature_name.pascalCase()}}Screen extends GetView<{{feature_name.pascalCase()}}Controller> {
-  const {{feature_name.pascalCase()}}Screen({Key? key}) : super(key: key);
+  const {{feature_name.pascalCase()}}Screen({super.key});
+
   //TODO: presentation here
 
    @override
