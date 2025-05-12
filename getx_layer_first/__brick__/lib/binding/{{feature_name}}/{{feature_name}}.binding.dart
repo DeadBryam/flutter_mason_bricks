@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:{{package_name}}/controller/{{feature_name}}/{{feature_name}}.dart';
+import 'package:{{package_name}}/controllers/{{feature_name}}/{{feature_name}}.dart';
 
 class {{feature_name.pascalCase()}}Binding implements Bindings {
   @override
